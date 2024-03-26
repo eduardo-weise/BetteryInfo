@@ -1,10 +1,11 @@
 ﻿using System.Management;
 using System.Runtime.Versioning;
+using BetteryInfo;
 
-namespace BetteryInfo;
+namespace BatteryInfo.Services.Windows;
 
 [SupportedOSPlatform("windows")]
-public static class InformationService
+public class InformationService : IInformationService
 {
     public static void GetInformation()
     {
