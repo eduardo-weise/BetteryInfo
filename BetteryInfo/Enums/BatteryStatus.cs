@@ -5,12 +5,12 @@ public enum BatteryStatus : ushort
     /// <summary>
     /// The battery is currently being charged.
     /// </summary>
-    Charging = 1,
+    Discharging = 1,
 
     /// <summary>
     /// The battery is discharging (providing power to the system).
     /// </summary>
-    Discharging = 2,
+    Charging = 2,
 
     /// <summary>
     /// The Status property does not apply to this context, 
